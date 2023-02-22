@@ -3,37 +3,45 @@
   
 
 
+body{
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+}
+
 
 
 .banner{
+
 background: url(images/banner/banner3.png );
-position: absolute;
-width: 1600px;
+width: 100%;
 height: 808px;
 left: 0px;
 top: 0px;
+padding-right: 100px;
+}
+
+.container{
+display: flex;
+flex-direction: column;
+align-items: end;
+position: absolute;
+top: 215px;
+left: 845px;
 }
 
 .head-text{
-   
-    position: absolute;
     width: 525px;
     height: 228px;
-    left: 845px;
-    top: 216px;
-    
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
     /* line-height: 78px; */
     text-align: right;
-    
     color: #FFFFFF;
-
-    
-
 }
+
 
 .head-text>h1{
     margin: 0;
@@ -41,22 +49,19 @@ top: 0px;
 }
 
 
+
 .head-quote{
-    position: absolute;
 width: 494px;
 height: 78px;
-left: 876px;
-top: 468px;
-
 font-family: 'Work Sans';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
 text-align: right;
-
 color: #FFFFFF;
 
 }
+
 
 .head-quote>p{
     margin: 0;
@@ -64,22 +69,74 @@ color: #FFFFFF;
 }
 
 button{
-position: absolute;
+
 width: 160px;
 height: 64px;
-left: 1210px;
-top: 578px;
-padding: 0;
 border-radius: 5px solid #FFFFFF ;
-
-
 font-family: 'Work Sans';
 font-style: normal;
 font-weight: 600;
 font-size: 15px;
 line-height: 23px;
 text-align: center;
-
 color: #005FAC;
 
 }
+
+/* Header section ends here */
+
+.mainSection{
+    position: absolute;
+    display: flex;
+    font-family: 'Work Sans';
+    font-style: normal;
+
+    width: 1072px;
+    height: 723.3px;
+    left: 206px;
+    top: 939px;
+
+}
+
+.mainImage{
+    
+    width: 569px;
+    height: 723.3px;
+   
+}
+
+.mainText{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-top: 100px;
+    padding-left: 100px;
+    
+   
+}
+
+.mainHeading{
+    font-weight: 700;
+    font-size: 40px;
+}
+.mainParagraph,.mainList{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color:#444343;
+    
+}
+.mainList>ul{
+    list-style: none;
+    padding: 0;
+}
+
+.mainList>ul>li::before{
+   
+        content: '\2714\0020';
+        color:#16D887 ;
+     
+}
+
+/* main section ends here */
