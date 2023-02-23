@@ -140,3 +140,65 @@ color: #005FAC;
 }
 
 /* main section ends here */
+
+.myPlans{
+    position: absolute;
+    top: 1792px;
+    left: 230px;
+    width: 1072px;
+}
+
+.headinMyplans>h2{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+text-align: center;
+color: #151414;
+
+}
+.headinMyplans{
+    display: flex;
+    justify-content: center;
+}
+.iconsMyplans{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1072px;
+    height: 200px;
+}
+
+.iconsMyplans>img{
+    width: 90px;
+    height: 90px;
+}
+
+.icon{
+    width: 215px;
+    height: 195px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon>h3{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+text-align: center;
+color: #151414;
+margin: 8px;
+}
+
+.icon>p{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+text-align: center;
+color: #737272;
+margin: 8px;
+}
+
+/* my plans section ends here */
