@@ -11,6 +11,7 @@ body{
 
 
 
+
 .banner{
 
 background: url(images/banner/banner3.png );
@@ -72,12 +73,12 @@ button{
 
 width: 160px;
 height: 64px;
-border-radius: 5px solid #FFFFFF ;
+border: #FFFFFF;
+border-radius: 5px  ;
 font-family: 'Work Sans';
 font-style: normal;
 font-weight: 600;
 font-size: 15px;
-line-height: 23px;
 text-align: center;
 color: #005FAC;
 
@@ -163,7 +164,7 @@ color: #151414;
 }
 .iconsMyplans{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 1072px;
     height: 200px;
 }
@@ -202,3 +203,29 @@ margin: 8px;
 }
 
 /* my plans section ends here */
+
+.callNow{
+    width: 1070px
+    height: 300px; 
+    background:linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%),url(images/watch.png);
+    overflow: hidden;
+    border-radius: 3px; 
+}
+
+.callContainer{
+    width: 459px;
+    height: 182px;
+    padding-left:64px ;
+}
+
+.callContainer>h1{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+  
+
+color: #FFFFFF;
+}
+
+/* main section finished */
